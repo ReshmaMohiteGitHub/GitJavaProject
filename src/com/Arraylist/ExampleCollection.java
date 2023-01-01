@@ -8,6 +8,8 @@ public class ExampleCollection {
 		list.add("A");
 		list.add("B");
 		list.add("C");
+		list.add("D");
+		list.add("E");
 		list.stream().forEach(x->System.out.println(x));
 	}
 
