@@ -8,7 +8,7 @@ public class ExampleCollection {
 		list.add("A");
 		list.add("B");
 		list.add("C");
-		System.out.println(list);
+		list.stream().forEach(x->System.out.println(x));
 	}
 
 }
